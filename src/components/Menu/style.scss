@@ -1,0 +1,29 @@
+nav {
+  width: 100vw;
+  position: fixed;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      margin: 30px;
+      a {
+        text-decoration: none;
+        color: #434242;
+        font: 500 1.2em 'roboto';
+      }
+    }
+  }
+}
+a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #434242;
+  transition: width 0.5s;
+}
+
+a:hover::after {
+  width: 100%;
+}

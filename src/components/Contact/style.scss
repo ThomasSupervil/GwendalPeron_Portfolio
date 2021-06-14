@@ -1,0 +1,33 @@
+.infoContact {
+  font: 300 1.5em 'Roboto';
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50vw;
+  height: 30vh;
+  font: 1.5em 'Roboto';
+
+  .nameMail {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    input {
+      width: 50%;
+      border: none;
+    }
+  }
+
+  textarea {
+    height: 60%;
+    width: 100%;
+    border: none;
+  }
+
+  #submit {
+    height: 20%;
+    width: 30%;
+  }
+}
